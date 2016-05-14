@@ -1,20 +1,20 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "miamifruit",
+  "version": "0.0",
+  "description": "a selling point for miami fruit",
   "engines": {
     "node": "6.0.0"
   },
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server/index.js"
   },
   "dependencies": {
     "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/rdalcega/miamifruit"
   },
   "keywords": [
     "node",
