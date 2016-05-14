@@ -6,13 +6,12 @@ var app = express();
 // app.get('port') from here on
 app.set('port', (process.env.PORT || 5000));
 app.listen(app.get('port'), function() {
+  // this callback function gets executed when listen is succesful
   console.log('Node app is running on port', app.get('port'));
 });
-// app.use(express.static(__dirname + '/public'));
-// views is directory for all template files
-// app.set('views', __dirname + '/views');
-// app.set('view engine', 'ejs');
 app.get('/', function(request, response) {
+  // this callback function gets executed when users browse
+  // to the root url
   response.send('this is the website for miamifruit');
 });
 
