@@ -1,6 +1,6 @@
 {
   "name": "miamifruit",
-  "version": "1.0",
+  "version": "0.25",
   "description": "a selling point for miami fruit",
   "engines": {
     "node": "6.0.0"
